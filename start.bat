@@ -1,0 +1,1 @@
+rd /s /q ".\build" &&  react-scripts build && node server.js

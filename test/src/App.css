@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  background-color: silver;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  float: left;
+}
+.wea p{
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.349);
+  border: slategrey 2px solid;
+  margin:2px;
+}
+.wea{
+  /* background-color: rgb(194, 205, 219); */
+}
+canvas{
+  border:1px solid black;
+  position: relative;
+  width: 400px;
+
+}
+span{
+  font-size: 3em;
+}
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+  display: block;
+}
+header:after{
+  clear: both;
+}
+.App-title {
+  font-size: 1.5em;
+  float: left;
+  line-height: 80px;
+}
+
+.App-intro {
+  font-size: large;
+}
+h3,h2{
+  text-decoration: underline;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

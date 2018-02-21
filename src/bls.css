@@ -1,0 +1,33 @@
+table{
+    position: relative;
+    height:100%;
+    display: block;
+}
+.row{
+    margin-bottom:20px;
+
+}
+.row h3{
+    margin-top:1em;
+}
+
+table td{
+    position: relative;
+    border:1px solid black;
+}
+table tr:nth-child(odd){
+    background-color: #807e97;
+    color: #fff;
+}
+table tr:nth-child(even){
+    background-color: #a1a4a5;
+}
+table th{
+    background-color: #aaa;
+    padding: 1px;
+    border:1px solid black;
+}
+.smt table th{
+    width:50%;
+    position: relative;
+}

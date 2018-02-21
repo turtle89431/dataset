@@ -1,0 +1,26 @@
+
+li{
+    list-style: none;
+    margin-top: 3px;
+    background-color: rgb(60, 61, 68);
+    float: left;
+    width:100%;
+    position: relative;
+    text-align: left;
+    padding: 2px;
+}
+/* li:nth-child(odd){
+    float:right;
+    margin-left: 0px;
+} */
+.cold{
+
+}
+a{
+    color: #fff;
+    text-emphasis: none;
+    text-decoration: none;
+}
+a:hover{
+    color:#fbff00;
+}
