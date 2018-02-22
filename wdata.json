@@ -8161,6 +8161,167 @@
                 "wind": "SW at 5.0 MPH",
                 "hum": "50"
             }
+        },
+        {
+            "sd": {
+                "temp": "50.7",
+                "wind": "ESE at 4.0 MPH",
+                "hum": "50"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.9",
+                "wind": "NNE at 4.0 MPH",
+                "hum": "50"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.9",
+                "wind": "NNE at 4.0 MPH",
+                "hum": "50"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.9",
+                "wind": "NNE at 4.0 MPH",
+                "hum": "50"
+            }
+        },
+        {
+            "sd": {
+                "temp": "51.0",
+                "wind": "SW at 7.0 MPH",
+                "hum": "51"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.7",
+                "wind": "SW at 6.0 MPH",
+                "hum": "53"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.7",
+                "wind": "ESE at 5.0 MPH",
+                "hum": "53"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.5",
+                "wind": "SW at 6.0 MPH",
+                "hum": "53"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.3",
+                "wind": "SW at 3.0 MPH",
+                "hum": "53"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.3",
+                "wind": "SW at 3.0 MPH",
+                "hum": "53"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.3",
+                "wind": "SW at 7.0 MPH",
+                "hum": "53"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.3",
+                "wind": "SW at 7.0 MPH",
+                "hum": "51"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.3",
+                "wind": "SSW at 5.0 MPH",
+                "hum": "50"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.3",
+                "wind": "West at 6.0 MPH",
+                "hum": "50"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.3",
+                "wind": "West at 6.0 MPH",
+                "hum": "50"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.3",
+                "wind": "SW at 6.0 MPH",
+                "hum": "50"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.3",
+                "wind": "West at 6.0 MPH",
+                "hum": "50"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.3",
+                "wind": "SSW at 4.0 MPH",
+                "hum": "50"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.5",
+                "wind": "WSW at 7.0 MPH",
+                "hum": "50"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.7",
+                "wind": "SW at 4.0 MPH",
+                "hum": "50"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.7",
+                "wind": "SW at 4.0 MPH",
+                "hum": "50"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.5",
+                "wind": "ESE at 3.0 MPH",
+                "hum": "50"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.5",
+                "wind": "SW at 5.0 MPH",
+                "hum": "50"
+            }
         }
     ]
 }
