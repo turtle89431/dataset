@@ -51,10 +51,11 @@ class App extends Component {
             </div>
            
           </div>
-          
+          <Jtable jobs={this.state.jc} />
           <div className="row">
+            
             <div className="col-12">
-            <Jtable jobs={this.state.jc} />
+            
               <Tables keys={this.state.dkey} shasta={this.state.tables.shasta} butte={this.state.tables.butte} cross={this.state.tables.cross} glen={this.state.tables.glen} nc={this.state.tables.nc} plumas={this.state.tables.plumas} data={this.state.data}/>
             </div>
           </div>
