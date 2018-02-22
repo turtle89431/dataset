@@ -9015,6 +9015,195 @@
                 "wind": "SSW at 4.0 MPH",
                 "hum": "53"
             }
+        },
+        {
+            "sd": {
+                "temp": "49.6",
+                "wind": "SSW at 4.0 MPH",
+                "hum": "53"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.8",
+                "wind": "SW at 5.0 MPH",
+                "hum": "54"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.8",
+                "wind": "ESE at 4.0 MPH",
+                "hum": "54"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.8",
+                "wind": "WSW at 4.0 MPH",
+                "hum": "54"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.8",
+                "wind": "South at 4.0 MPH",
+                "hum": "54"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.8",
+                "wind": "South at 4.0 MPH",
+                "hum": "54"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.8",
+                "wind": "WNW at 4.0 MPH",
+                "hum": "54"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.8",
+                "wind": "SSE at 5.0 MPH",
+                "hum": "54"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.8",
+                "wind": "SSW at 5.0 MPH",
+                "hum": "54"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.8",
+                "wind": "SSW at 5.0 MPH",
+                "hum": "54"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.6",
+                "wind": "SW at 4.0 MPH",
+                "hum": "54"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.6",
+                "wind": "SW at 4.0 MPH",
+                "hum": "54"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.6",
+                "wind": "SSW at 4.0 MPH",
+                "hum": "54"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.4",
+                "wind": "SW at 6.0 MPH",
+                "hum": "53"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.4",
+                "wind": "SW at 6.0 MPH",
+                "hum": "53"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.4",
+                "wind": "WSW at 4.0 MPH",
+                "hum": "53"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.4",
+                "wind": "WNW at 3.0 MPH",
+                "hum": "53"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.4",
+                "wind": "SSE at 3.0 MPH",
+                "hum": "54"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.4",
+                "wind": "SSE at 3.0 MPH",
+                "hum": "54"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.6",
+                "wind": "SSW at 3.0 MPH",
+                "hum": "54"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.6",
+                "wind": "SW at 4.0 MPH",
+                "hum": "54"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.4",
+                "wind": "SW at 4.0 MPH",
+                "hum": "55"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.4",
+                "wind": "SW at 3.0 MPH",
+                "hum": "54"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.4",
+                "wind": "SSW at 3.0 MPH",
+                "hum": "54"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.4",
+                "wind": "SSW at 3.0 MPH",
+                "hum": "54"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.4",
+                "wind": "SW at 5.0 MPH",
+                "hum": "55"
+            }
+        },
+        {
+            "sd": {
+                "temp": "49.4",
+                "wind": "SW at 5.0 MPH",
+                "hum": "55"
+            }
         }
     ]
 }

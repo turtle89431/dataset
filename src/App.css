@@ -36,10 +36,6 @@ span{
   line-height: 80px;
 }
 .jcc{
-  height: 600px;
-  max-height: 600px;
-  overflow-y: scroll;
-  background-color: rgb(167, 166, 253);
   color: rgb(15, 1, 63);
 }
 
@@ -53,6 +49,11 @@ span{
 .jcc table td{
   font-size: 1em;
   padding: 1px;
+}
+.jc{
+  height: 600px;
+  max-height: 600px;
+  overflow-y: scroll;
 }
 .App-intro {
   font-size: large;

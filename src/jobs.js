@@ -18,7 +18,9 @@ let Jtable=props=>{
             <th>Employeer</th>
             <th>Description</th>
         </tr>
+        <tbody className="jc">
         {out}
+        </tbody>
     </table>
     </div>
     </div>
