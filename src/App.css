@@ -42,10 +42,7 @@ span{
 .jcc h3 {
   align-content:center;
 }
-.jcc table{
-  position: relative;
-  float: left;
-}
+
 .jcc table td{
   font-size: 1em;
   padding: 1px;
