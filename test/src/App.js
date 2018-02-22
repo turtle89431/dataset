@@ -11,7 +11,7 @@ let f2c=num=>Math.round((num-32)*.5556,2)
 
 
 class App extends Component {
-  state={msg:"",data:[],datakeys:[],weather:{temp:50},news:[],tc:'',svgColor:"",wdb:[0,0,0,0,0],base:50,dkey:{"headers":["Level","Degree"],"data":[["1"," Doctoral or professional degree"],["2"," Master's degree"],["3"," Bachelor's degree"],["4"," Associate's degree"],["5"," Postsecondary nondegree award"],["6"," Some college, no degree"],["7"," High school diploma or equivalent"],["8"," No formal educational credential"]]},tables:{keys: {headers:[],data:[]},shasta: {headers:[],data:[]}, butte: {headers:[],data:[]}, glen: {headers:[],data:[]}, cross: {headers:[],data:[]},nc: {headers:[],data:[]}, plumas: {headers:[],data:[]}, headers:[],data:[]}}
+  state={cj:["ok"],msg:"",data:[],datakeys:[],weather:{temp:50},news:[],tc:'',svgColor:"",wdb:[0,0,0,0,0],base:50,dkey:{"headers":["Level","Degree"],"data":[["1"," Doctoral or professional degree"],["2"," Master's degree"],["3"," Bachelor's degree"],["4"," Associate's degree"],["5"," Postsecondary nondegree award"],["6"," Some college, no degree"],["7"," High school diploma or equivalent"],["8"," No formal educational credential"]]},tables:{keys: {headers:[],data:[]},shasta: {headers:[],data:[]}, butte: {headers:[],data:[]}, glen: {headers:[],data:[]}, cross: {headers:[],data:[]},nc: {headers:[],data:[]}, plumas: {headers:[],data:[]}, headers:[],data:[]}}
 
   componentDidMount(){
    a.on('tables',data=>{console.log(data);this.setState({tables:data})});
@@ -21,6 +21,10 @@ class App extends Component {
     a.on('ok',a=>{this.setState({msg:a})});
     a.on('news',data=>{this.setState({news:data})});
     a.on('wdb',data=>{this.setState({wdb:data})});
+    a.on('cj',data=>{
+      this.setState({cj:data})
+      console.log(data)
+    })
     a.on('weather',data=>{
       let colorn = Number.parseFloat(data.temp);
       let color = {r:(f2c(colorn)>70)?f2c(colorn)*5:0,g:(colorn>=55)?Math.round(f2c(colorn)*5.344)+50:(colorn <= 84 && colorn >=56)?Math.round(255-(colorn*(1/255))):Math.round(10*f2c(colorn)),b:(colorn<=65)?255-(Math.round(f2c(colorn)*14.166)):0}

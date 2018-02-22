@@ -10,6 +10,7 @@ const weather = require('./weather')
 const news = require('./news')
 let dbms = require("node-json-db");
 let wdb = new dbms("./wdata.json",true,true)
+let jobs = require("./cj")
 //let wdbout = require("./wdata.json")
 // var dbms = require('node-json-db')
 // var blsData = new dbms("./bls")
@@ -21,23 +22,27 @@ var shasta = new dbms("./shasta.json",true,true)
 var nc = new dbms("./nc.json",true,true)
 var soc = new dbms("./soc.json",true,true)
 var key = new dbms("./key.json",true,true)
-
+var jc = new dbms("./cj.json",true,true)
 app.use(express.static('build'))
 // weather().then(test=>{console.log(test)})
 app.get("/",(req,res)=>{
   res.sendfile(__dirname + '/build/index.html')
 })
 io.on('connection', function(client){
+  jobs().then(data=>{
+    jc.push("/",data)
+    client.emit('cj',data)
+  })
   client.emit('hello',{message:"hello"});
   client.on('event', function(data){
       client.emit('ok',"your a " + data);
-      
-     
-  });
+});
+  
   weather().then(ddd=>{
     client.emit('base',ddd.temp)
    })
   client.on('db',()=>{
+    
     client.emit('db',wdb.getData('/weather'))
     let t=[]
         t= wdb.getData("/weather")
@@ -103,5 +108,6 @@ io.on('connection', function(client){
   news().then(data=>{
    client.emit('news',data)
   })
+  
 });
-server.listen(process.env.port || 8000);
+server.listen(process.env.port || 9000);

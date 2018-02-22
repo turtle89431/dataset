@@ -23,6 +23,7 @@ canvas{
   width: 400px;
 
 }
+
 span{
   font-size: 3em;
 }
@@ -41,7 +42,20 @@ header:after{
   float: left;
   line-height: 80px;
 }
-
+.jcc{
+  max-height: 400px;
+  overflow-y: scroll;
+  background-color: rgb(167, 166, 253);
+  color: rgb(15, 1, 63);
+  width:90%;
+  margin: 0 auto;
+}
+.jcc a {
+  color: dodgerblue;
+}
+.jcc h3 {
+  align-content:center;
+}
 .App-intro {
   font-size: large;
 }
