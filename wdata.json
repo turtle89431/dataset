@@ -8049,6 +8049,90 @@
                 "wind": "SW at 10.0 MPH",
                 "hum": "51"
             }
+        },
+        {
+            "sd": {
+                "temp": "51.9",
+                "wind": "SW at 10.0 MPH",
+                "hum": "51"
+            }
+        },
+        {
+            "sd": {
+                "temp": "51.0",
+                "wind": "West at 9.0 MPH",
+                "hum": "53"
+            }
+        },
+        {
+            "sd": {
+                "temp": "51.0",
+                "wind": "West at 9.0 MPH",
+                "hum": "53"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.9",
+                "wind": "SW at 5.0 MPH",
+                "hum": "53"
+            }
+        },
+        {
+            "sd": {
+                "temp": "51.0",
+                "wind": "SSW at 7.0 MPH",
+                "hum": "53"
+            }
+        },
+        {
+            "sd": {
+                "temp": "51.3",
+                "wind": "SSW at 5.0 MPH",
+                "hum": "54"
+            }
+        },
+        {
+            "sd": {
+                "temp": "51.3",
+                "wind": "East at 7.0 MPH",
+                "hum": "54"
+            }
+        },
+        {
+            "sd": {
+                "temp": "51.3",
+                "wind": "East at 7.0 MPH",
+                "hum": "54"
+            }
+        },
+        {
+            "sd": {
+                "temp": "51.3",
+                "wind": "East at 7.0 MPH",
+                "hum": "54"
+            }
+        },
+        {
+            "sd": {
+                "temp": "51.5",
+                "wind": "ESE at 5.0 MPH",
+                "hum": "53"
+            }
+        },
+        {
+            "sd": {
+                "temp": "51.5",
+                "wind": "SW at 6.0 MPH",
+                "hum": "53"
+            }
+        },
+        {
+            "sd": {
+                "temp": "51.5",
+                "wind": "SW at 6.0 MPH",
+                "hum": "53"
+            }
         }
     ]
 }
