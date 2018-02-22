@@ -31,7 +31,7 @@ app.get("/",(req,res)=>{
 io.on('connection', function(client){
   jobs().then(data=>{
     jc.push("/",data)
-    client.emit('cj',data)
+    client.emit('cj',jc.getData("/"))
   })
   client.emit('hello',{message:"hello"});
   client.on('event', function(data){
