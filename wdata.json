@@ -8133,6 +8133,34 @@
                 "wind": "SW at 6.0 MPH",
                 "hum": "53"
             }
+        },
+        {
+            "sd": {
+                "temp": "51.0",
+                "wind": "SW at 6.0 MPH",
+                "hum": "51"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.7",
+                "wind": "SSW at 5.0 MPH",
+                "hum": "51"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.7",
+                "wind": "SSW at 5.0 MPH",
+                "hum": "51"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.7",
+                "wind": "SW at 5.0 MPH",
+                "hum": "50"
+            }
         }
     ]
 }

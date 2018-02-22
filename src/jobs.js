@@ -4,7 +4,7 @@ let Jtable=props=>{
     let out = p.map(item=>(
         <tr>
             <td><a href={item.href}>{item.title}</a></td>
-            <td>posted by:{item.comp}</td>
+            <td>{item.comp}</td>
             <td>{item.desc}</td>
         </tr>
     ))
