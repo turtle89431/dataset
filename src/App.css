@@ -1,12 +1,10 @@
 .App {
-  text-align: center;
   background-color: silver;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
-  float: left;
 }
 .wea p{
   text-align: left;
@@ -30,13 +28,11 @@ span{
 .App-header {
   background-color: #222;
   height: 100px;
-  padding: 20px;
   color: white;
 }
 
 .App-title {
   font-size: 1.5em;
-  float: left;
   line-height: 80px;
 }
 .jcc{
@@ -45,8 +41,6 @@ span{
   overflow-y: scroll;
   background-color: rgb(167, 166, 253);
   color: rgb(15, 1, 63);
-  margin: 0;
-  display: flex;
 }
 
 .jcc h3 {

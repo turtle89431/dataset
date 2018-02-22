@@ -34,9 +34,17 @@ class App extends Component {
     return (
       <div className="App">
       <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" onClick={this.clickme} />
+      <div className="container">
+        <div className="row">
+          <div className="col-2">
+          <img src={logo} className="App-logo" alt="logo" onClick={this.clickme}  />
+          </div>
+        <div className="col-10">
           <h1 className="App-title">Far north industry projection </h1>
-        </header>
+        </div>  
+      </div> 
+      </div>
+      </header>
         
 
       <div className="container-fluid">
