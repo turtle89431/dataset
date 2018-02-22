@@ -37,14 +37,9 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" onClick={this.clickme} />
           <h1 className="App-title">Far north industry projection </h1>
         </header>
-        <div className="container-fluid">
-          <div className="row"> 
-            <div className="col-12"><Jtable jobs={this.state.jc} /></div>
-          </div>
-         </div>
+        
+
       <div className="container-fluid">
-        
-        
           <div className="row">
           
             <div className="col-7">
@@ -59,6 +54,7 @@ class App extends Component {
           
           <div className="row">
             <div className="col-12">
+            <Jtable jobs={this.state.jc} />
               <Tables keys={this.state.dkey} shasta={this.state.tables.shasta} butte={this.state.tables.butte} cross={this.state.tables.cross} glen={this.state.tables.glen} nc={this.state.tables.nc} plumas={this.state.tables.plumas} data={this.state.data}/>
             </div>
           </div>
