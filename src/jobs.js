@@ -26,7 +26,7 @@ let Jtable=props=>{
     </table>
     </div>
     <div className="col-3">
-    <h3 className="col-12">National industry trends</h3>
+    <h3 className="col-12 jc">National industry trends</h3>
     <BLS data={d ||{}}/>
     </div>
     </div>
