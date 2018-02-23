@@ -48,9 +48,10 @@ span{
   padding: 1px;
 }
 .jc{
-  height: 600px;
-  max-height: 600px;
+  height: 400px;
+  max-height: 400px;
   overflow-y: scroll;
+  position: relative;
 }
 .App-intro {
   font-size: large;

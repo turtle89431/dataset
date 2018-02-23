@@ -59,7 +59,7 @@ class App extends Component {
             </div>
            
           </div>
-          <Jtable jobs={this.state.jc} />
+          <Jtable jobs={this.state.jc} data={this.state.data}/>
           <div className="row">
             
             <div className="col-12">

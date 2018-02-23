@@ -1,5 +1,5 @@
 import React from 'react'
-import BLS from "./blstable"
+
 import Butte from './butte'
 let Tables =props=>{
     this.props=props||{ keys: {headers:[],data:[]},shasta: {headers:[],data:[]}, butte: {headers:[],data:[]},cross: {headers:[],data:[]}, glen: {headers:[],data:[]}, nc: {headers:[],data:[]}, plumas: {headers:[],data:[]}, headers:[],data:[]}
@@ -36,8 +36,8 @@ let Tables =props=>{
     <div className="col-6">
         <h3>Colusa, Glenn, &amp; Tehama Counties</h3>
         <Butte header={this.props.glen.headers ||{}} data ={this.props.glen.data || {}} /></div>
-        <div className="col-6"><h3>National</h3>
-        <BLS data={this.props.data ||{}}/>
+        <div className="col-6">
+        
         </div>
     </div>
     </div>)
