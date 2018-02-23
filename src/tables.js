@@ -6,7 +6,7 @@ let Tables =props=>{
     let kt ={"headers":["Level","Degree"],"data":[["1"," Doctoral or professional degree"],["2"," Master's degree"],["3"," Bachelor's degree"],["4"," Associate's degree"],["5"," Postsecondary nondegree award"],["6"," Some college, no degree"],["7"," High school diploma or equivalent"],["8"," No formal educational credential"]]}
    return (<div>
     <div className="row">
-        <div className="col-8">
+        <div className="col-8 jc">
         <h3>Soc-Top-Cip cross reference</h3>
           <Butte header={this.props.cross.headers || {}} data ={this.props.cross.data || {} } />
         </div>

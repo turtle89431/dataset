@@ -10912,6 +10912,76 @@
                 "wind": "NNE at 10.0 MPH",
                 "hum": "83"
             }
+        },
+        {
+            "sd": {
+                "temp": "41.4",
+                "wind": "NNE at 10.0 MPH",
+                "hum": "83"
+            }
+        },
+        {
+            "sd": {
+                "temp": "41.4",
+                "wind": "North at 11.0 MPH",
+                "hum": "83"
+            }
+        },
+        {
+            "sd": {
+                "temp": "41.4",
+                "wind": "NNW at 6.0 MPH",
+                "hum": "83"
+            }
+        },
+        {
+            "sd": {
+                "temp": "41.4",
+                "wind": "NNW at 6.0 MPH",
+                "hum": "83"
+            }
+        },
+        {
+            "sd": {
+                "temp": "41.4",
+                "wind": "NNE at 12.0 MPH",
+                "hum": "83"
+            }
+        },
+        {
+            "sd": {
+                "temp": "41.4",
+                "wind": "WSW at 8.0 MPH",
+                "hum": "83"
+            }
+        },
+        {
+            "sd": {
+                "temp": "41.4",
+                "wind": "WNW at 9.0 MPH",
+                "hum": "83"
+            }
+        },
+        {
+            "sd": {
+                "temp": "41.1",
+                "wind": "North at 7.0 MPH",
+                "hum": "83"
+            }
+        },
+        {
+            "sd": {
+                "temp": "41.1",
+                "wind": "North at 7.0 MPH",
+                "hum": "83"
+            }
+        },
+        {
+            "sd": {
+                "temp": "41.1",
+                "wind": "NNE at 15.0 MPH",
+                "hum": "85"
+            }
         }
     ]
 }
