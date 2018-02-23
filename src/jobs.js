@@ -14,7 +14,7 @@ let Jtable=props=>{
     return <div className="row jcc">
     <div className="row">
     <h3 className="col-12">Current Open Ict Jobs</h3>
-    <div className="col-8 jc">
+    <div className="col-11 jc">
     <table>
         <tr>
             <th>Job</th>
@@ -26,9 +26,6 @@ let Jtable=props=>{
         </tbody>
     </table>
     </div></div>
-    <div className="row">
-    <h3 className="col-12">National industry trends</h3>
-    </div>
     </div>
 }
 export default Jtable

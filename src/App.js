@@ -59,6 +59,7 @@ class App extends Component {
               <Weather base={this.state.base} weather={this.state.weather || {temp:50,hum:0}} wdb={this.state.wdb} svgColor={this.state.svgColor}/>
             </div>
             <div className="col-3 jc">
+            <h3 className="col-12">National industry trends</h3>
               <BLS data={this.state.data ||{}}/>
            </div>
           </div>
