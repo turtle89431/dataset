@@ -10464,6 +10464,104 @@
                 "wind": "NNW at 2.0 MPH",
                 "hum": "50"
             }
+        },
+        {
+            "sd": {
+                "temp": "47.3",
+                "wind": "NE at 10.0 MPH",
+                "hum": "61"
+            }
+        },
+        {
+            "sd": {
+                "temp": "47.3",
+                "wind": "NE at 10.0 MPH",
+                "hum": "61"
+            }
+        },
+        {
+            "sd": {
+                "temp": "47.3",
+                "wind": "NE at 10.0 MPH",
+                "hum": "61"
+            }
+        },
+        {
+            "sd": {
+                "temp": "47.3",
+                "wind": "NE at 10.0 MPH",
+                "hum": "61"
+            }
+        },
+        {
+            "sd": {
+                "temp": "47.3",
+                "wind": "NE at 10.0 MPH",
+                "hum": "61"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.3",
+                "wind": "NNW at 0.0 MPH",
+                "hum": "56"
+            }
+        },
+        {
+            "sd": {
+                "temp": "47.3",
+                "wind": "NE at 10.0 MPH",
+                "hum": "61"
+            }
+        },
+        {
+            "sd": {
+                "temp": "47.3",
+                "wind": "NE at 10.0 MPH",
+                "hum": "61"
+            }
+        },
+        {
+            "sd": {
+                "temp": "50.3",
+                "wind": "NNW at 0.0 MPH",
+                "hum": "56"
+            }
+        },
+        {
+            "sd": {
+                "temp": "47.3",
+                "wind": "NE at 10.0 MPH",
+                "hum": "61"
+            }
+        },
+        {
+            "sd": {
+                "temp": "47.3",
+                "wind": "NE at 10.0 MPH",
+                "hum": "61"
+            }
+        },
+        {
+            "sd": {
+                "temp": "47.3",
+                "wind": "NE at 10.0 MPH",
+                "hum": "61"
+            }
+        },
+        {
+            "sd": {
+                "temp": "46.9",
+                "wind": "West at 15.0 MPH",
+                "hum": "63"
+            }
+        },
+        {
+            "sd": {
+                "temp": "46.5",
+                "wind": "ENE at 16.0 MPH",
+                "hum": "63"
+            }
         }
     ]
 }
