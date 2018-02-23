@@ -1,5 +1,5 @@
 import React from 'react'
-import BLS from "./blstable"
+
 let Jtable=props=>{
     let p=props.jobs
     let d=props.data
@@ -28,9 +28,7 @@ let Jtable=props=>{
     </div></div>
     <div className="row">
     <h3 className="col-12">National industry trends</h3>
-    <div className="col-3 jc">
-    <BLS data={d ||{}}/>
-    </div></div>
+    </div>
     </div>
 }
 export default Jtable

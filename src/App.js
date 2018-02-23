@@ -6,6 +6,7 @@ import Butte from './butte'
 import Weather from './weather.js'
 import Tables from './tables'
 import Jtable from './jobs'
+import BLS from "./blstable"
 //import events from './events'
 let a = require("socket.io-client")()
 let f2c=num=>Math.round((num-32)*.5556,2)
@@ -50,14 +51,16 @@ class App extends Component {
       <div className="container-fluid">
           <div className="row">
           
-            <div className="col-7">
+            <div className="col-5">
               <h2>News</h2>
               <News news={this.state.news}  /></div>
-            <div className="col-5 wea">
+            <div className="col-4 wea">
               <h2>weather conditions</h2>
               <Weather base={this.state.base} weather={this.state.weather || {temp:50,hum:0}} wdb={this.state.wdb} svgColor={this.state.svgColor}/>
             </div>
-           
+            <div className="col-3 jc">
+              <BLS data={this.state.data ||{}}/>
+           </div>
           </div>
           <Jtable jobs={this.state.jc} data={this.state.data}/>
           <div className="row">
